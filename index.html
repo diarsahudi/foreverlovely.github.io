@@ -3,130 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forever Lovely Official Music Website</title>
+    <title>Forever Lovely</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        header {
-            background-color: #1a1a1a;
-            color: white;
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://images.app.goo.gl/KSj5AkMZSjzcCgvs9');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
             text-align: center;
-            padding: 20px 0;
         }
-        header h1 {
+        .container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            font-size: 3em;
             margin: 0;
-            font-size: 2.5em;
+            color: #fddb3a;
         }
         nav {
-            text-align: center;
-            background-color: #333;
-            padding: 10px 0;
+            margin-top: 20px;
         }
         nav a {
-            color: white;
             text-decoration: none;
+            color: #00c9b1;
+            font-size: 1.5em;
             margin: 0 15px;
-            font-size: 1.2em;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
         nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .section-title {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .about, .discography, .social-media, .contact {
-            background-color: white;
-            margin: 20px auto;
-            max-width: 800px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 30px;
-        }
-        .discography ul {
-            list-style: none;
-            padding: 0;
-        }
-        .discography ul li {
-            margin: 10px 0;
-            font-size: 1.2em;
-        }
-        .social-media a {
-            margin: 0 10px;
-            font-size: 1.5em;
-            color: #333;
-            text-decoration: none;
-        }
-        .social-media a:hover {
-            color: #555;
-        }
-        footer {
-            background-color: #1a1a1a;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            margin-top: 20px;
+            background-color: #00c9b1;
+            color: #fff;
         }
     </style>
 </head>
 <body>
 
-    <header>
+    <div class="container">
         <h1>Forever Lovely</h1>
-    </header>
-
-    <nav>
-        <a href="#about">About</a>
-        <a href="#discography">Discography</a>
-        <a href="#social-media">Social Media</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="about" class="about">
-        <h2 class="section-title">About Us</h2>
-        <p>Forever Lovely is a pop duo/band fronted by twin sisters Forever Julia (guitar, piano) and Lovely Luna (piano, guitar). Originally from Yogyakarta, Indonesia, where they were born on October 17, 2005, the duo is now based in the Yogyakarta area. They first gained attention with their single "Usah" on YouTube.</p>
-        <p>The duo's music is produced by their father, Diar Sahudi, who is also a singer and songwriter. All of their music is recorded in the family's own music studio. For live concerts, the band typically features a 5-person lineup, with Julia mainly on guitar and Luna on piano, supported by additional musicians on other instruments.</p>
-    </section>
-
-    <section id="discography" class="discography">
-        <h2 class="section-title">Discography</h2>
-        <ul>
-            <li><strong>Berlalu</strong> (2024)</li>
-            <li><strong>STARLIGHT</strong> (2023)</li>
-            <li><strong>Menari Di Atas Pelangi</strong> (2020)</li>
-            <li><strong>Semoga Kita Baik-Baik Saja</strong> (2020)</li>
-            <li><strong>Buram</strong> (2020)</li>
-            <li><strong>Usah</strong> (2020)</li>
-        </ul>
-        <a href="https://open.spotify.com/artist/7nvKbG4XdI69nG7ZjczDtk?si=Y2BxOMGCTUKORKpi0rL6TQ" target="_blank">Listen on Spotify</a>
-    </section>
-
-    <section id="social-media" class="social-media">
-        <h2 class="section-title">Follow Us</h2>
-        <a href="https://www.instagram.com/foreverlovely.id/" target="_blank">Instagram</a>
-        <a href="https://www.tiktok.com/@foreverlovely_id" target="_blank">TikTok</a>
-        <a href="https://www.facebook.com/foreverlovely.id" target="_blank">Facebook</a>
-    </section>
-
-    <section id="contact" class="contact">
-        <h2 class="section-title">Contact Information</h2>
-        <p>If you'd like to get in touch for bookings, collaborations, or just to say hi, feel free to reach out!</p>
-        <p>Email: <a href="mailto:pabriksenisuara@gmail.com">pabriksenisuara@gmail.com</a></p>
-        <p>WhatsApp: <a href="https://wa.me/628988331158" target="_blank">+628988331158</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Forever Lovely. All rights reserved.</p>
-    </footer>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#discography">Discography</a>
+            <a href="#social-media">Social Media</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
 
 </body>
 </html>
